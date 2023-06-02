@@ -24,8 +24,5 @@ but.forEach(button=>{
             input.value = string
         }
         
-       console.log(string)
-       console.log(e.target.innerHTML)
-
     })
 })
