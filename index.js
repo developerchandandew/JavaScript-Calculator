@@ -1,5 +1,5 @@
 const input = document.querySelector('input');
-const button = document.querySelectorAll('button');
+// const button = document.querySelectorAll('button');
 const but=Array.from(button);
 let string = '';
 
@@ -23,6 +23,9 @@ but.forEach(button=>{
             string += e.target.innerHTML;
             input.value = string
         }
+        
+       console.log(string)
+       console.log(e.target.innerHTML)
 
     })
 })
